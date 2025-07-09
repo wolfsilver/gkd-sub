@@ -23,6 +23,21 @@ export default defineGkdApp({
       ],
     },
     {
+      key: 2,
+      name: '开屏广告',
+      fastQuery: true,
+      activityIds: '.login.LoadingActivity',
+      matchTime: 10000,
+      actionMaximum: 1,
+      rules: [
+        {
+          key: 0,
+          matches: '[vid="ad_skip_tv"]',
+          snapshotUrls: 'https://i.gkd.li/snapshot/1752021547215',
+        },
+      ],
+    },
+    {
       key: 7,
       name: '全屏广告-弹窗广告',
       fastQuery: true,
