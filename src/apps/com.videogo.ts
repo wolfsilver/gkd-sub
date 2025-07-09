@@ -32,8 +32,8 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
-          matches: '[vid="ad_skip_tv"]',
-          snapshotUrls: 'https://i.gkd.li/snapshot/1752021547215',
+          matches: '[id="com.videogo:id/ad_skip_tv"]',
+          snapshotUrls: 'https://i.gkd.li/i/21134807',
         },
       ],
     },
