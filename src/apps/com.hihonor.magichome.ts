@@ -25,7 +25,7 @@ export default defineGkdApp({
         {
           fastQuery: true,
           activityIds: '.business.MainActivity',
-          matches: '[id="com.hihonor.magichome:id/float_operation"]'
+          matches: '[id="com.hihonor.magichome:id/float_operation"]',
         },
       ],
     },
