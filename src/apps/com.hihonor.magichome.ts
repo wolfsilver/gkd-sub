@@ -18,5 +18,16 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 1,
+      name: '局部广告-悬浮窗小广告',
+      rules: [
+        {
+          fastQuery: true,
+          activityIds: '.business.MainActivity',
+          matches: '[id="com.hihonor.magichome:id/float_operation"]'
+        },
+      ],
+    },
   ],
 });
