@@ -14,8 +14,7 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
-          matches: 'id="com.hihonor.magichome:id/ads_splash_countdown"',
-          snapshotUrls: 'https://i.gkd.li/snapshot/1776783579067',
+          matches: 'id="com.hihonor.magichome:id/ads_splash_countdown"'
         },
       ],
     },
