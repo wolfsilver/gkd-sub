@@ -5,7 +5,7 @@ export default defineGkdApp({
   name: '荣耀智慧空间',
   groups: [
     {
-      key: 1,
+      key: 0,
       name: '开屏广告',
       fastQuery: true,
       activityIds: '.activity.WelcomeActivity',
@@ -14,7 +14,7 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
-          matches: '[id="com.hihonor.magichome:id/ads_splash_countdown"]',
+          matches: '[vid="ads_splash_countdown"]',
         },
       ],
     },
